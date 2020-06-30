@@ -1,0 +1,36 @@
+{
+  "name": "jsphe",
+  "version": "0.1.0",
+  "description": "a javascript port of the PokerHandEvaluator library (https://github.com/HenryRLee/PokerHandEvaluator)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaines/jsPHE.git"
+  },
+  "keywords": [
+    "javascript",
+    "poker",
+    "pokerevaluator",
+    "equity",
+    "equitycalculator"
+  ],
+  "author": "Cody Haines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaines/jsPHE/issues"
+  },
+  "homepage": "https://github.com/chaines/jsPHE#readme",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "eslint": "^7.3.1",
+    "jest": "^26.1.0",
+    "prettier": "2.0.5"
+  },
+  "dependencies": {
+    "phe": "^0.6.0"
+  }
+}
